@@ -1,0 +1,19 @@
+{
+  "version": "1.1.0",
+  "updated": "2026-07-06",
+  "dir": "holidays/",
+  "file_pattern": "holidays/<lang>.json.gz",
+  "languages": {
+    "en": 77,
+    "ru": 99,
+    "ar": 78,
+    "kk": 78,
+    "ky": 47,
+    "az": 47,
+    "uz": 47,
+    "tg": 47,
+    "tr": 66,
+    "ja": 78
+  },
+  "note": "Строки праздников/важных дней. Ключи holiday.*/greeting.*/reminder.*/friday.*. Отсутствующий ключ => английский fallback (встроен в приложение)."
+}
