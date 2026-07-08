@@ -4,8 +4,8 @@
   "countries": {
     "file": "geo/countries.json.gz",
     "count": 244,
-    "format": "{\"EnglishName\":{\"ru\":..,\"ar\":..,\"kk\":..,\"tr\":..,\"ja\":..}}",
-    "size_gz": 8399
+    "format": "{\"EnglishName\":{\"ru\":..,\"ar\":..,\"kk\":..,\"tr\":..,\"ja\":..,\"ko\":..}}",
+    "size_gz": 10533
   },
   "cities": {
     "format": "{\"EnglishName\":\"LocalizedName\"}",
@@ -64,6 +64,12 @@
         "file": "geo/cities/uz.json.gz",
         "cities": 1737,
         "size_gz": 20679
+      },
+      {
+        "lang": "ko",
+        "file": "geo/cities/ko.json.gz",
+        "cities": 15142,
+        "size_gz": 169089
       }
     ]
   }
