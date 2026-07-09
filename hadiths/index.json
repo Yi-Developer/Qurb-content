@@ -1,0 +1,11 @@
+{
+  "hadiths": {
+    "languages": {
+      "kk": 96,
+      "ky": 96,
+      "ru": 96,
+      "tg": 96
+    },
+    "note": "en/ar вшиты в приложение как fallback"
+  }
+}
