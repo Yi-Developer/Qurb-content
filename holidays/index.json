@@ -1,20 +1,20 @@
 {
-  "version": "1.1.0",
-  "updated": "2026-07-06",
+  "version": "1.3.0",
+  "updated": "2026-08-31",
   "dir": "holidays/",
   "file_pattern": "holidays/<lang>.json.gz",
   "languages": {
-    "en": 77,
-    "ru": 99,
-    "ar": 78,
-    "kk": 78,
-    "ky": 47,
-    "az": 47,
-    "uz": 47,
-    "tg": 47,
-    "tr": 66,
-    "ja": 78,
-    "ko": 77
+    "en": 94,
+    "ru": 103,
+    "ar": 94,
+    "kk": 94,
+    "ky": 94,
+    "az": 94,
+    "uz": 94,
+    "tg": 94,
+    "tr": 94,
+    "ja": 94,
+    "ko": 94
   },
-  "note": "Строки праздников/важных дней. Ключи holiday.*/greeting.*/reminder.*/friday.*. Отсутствующий ключ => английский fallback (встроен в приложение)."
+  "note": "Строки праздников/важных дней. Ключи holiday.*/greeting.*/reminder.*/friday.*/event.*/settings.*. Отсутствующий ключ => английский fallback (встроен в приложение). В 1.3.0 добавлены: event.accept (кнопка диалога дня), holiday.what_to_do (подпись карточки в новостях), settings.holiday_notifications и settings.sunnah_fast_notifications (переключатели уведомлений)."
 }
